@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Andiamo Ristorante | Authentic Italian Dining in Bellevue, WA</title>
+<meta name="description" content="Traditional Italian cooking inspired by generations — fresh, made-from-scratch pasta, seafood, and classics with warm hospitality in Bellevue, Washington." />
+
+<!-- Open Graph / social sharing -->
+<meta property="og:type" content="restaurant" />
+<meta property="og:title" content="Andiamo Ristorante | Authentic Italian in Bellevue" />
+<meta property="og:description" content="Traditional Italian cooking inspired by generations. Fresh, made-from-scratch dishes and warm hospitality." />
+<meta property="og:url" content="https://www.andiamobellevue.com/" />
+<meta property="og:image" content="images/og-image.jpg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..700&family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ===== ANNOUNCEMENT BAR ===== -->
+<div class="topbar" id="topbar">
+  <span>Now taking reservations &amp; catering orders — call <a href="tel:+14256750248">(425) 675-0248</a></span>
+</div>
+
+<!-- ===== HEADER / NAV ===== -->
+<header class="site-header" id="header">
+  <div class="nav-inner">
+    <a href="#top" class="brand" aria-label="Andiamo Ristorante home">
+      <span class="brand-mark">Andiamo</span>
+      <span class="brand-sub">Ristorante &middot; Bellevue</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#events">Catering &amp; Events</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#visit">Visit</a>
+      <a class="nav-cta" href="https://www.yelp.com/reservations/andiamo-bellevue" target="_blank" rel="noopener">Reserve</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-grain" aria-hidden="true"></div>
+  <div class="hero-content">
+    <p class="eyebrow">Bellevue, Washington</p>
+    <h1>Authentic taste<br><em>in every dish.</em></h1>
+    <p class="hero-lede">Traditional Italian cooking inspired by generations of home kitchens — fresh, made from scratch, and served like family.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="https://www.yelp.com/reservations/andiamo-bellevue" target="_blank" rel="noopener">Book a Table</a>
+      <a class="btn btn-ghost" href="#menu">View the Menu</a>
+    </div>
+  </div>
+  <a href="#about" class="scroll-cue" aria-label="Scroll down">&#8595;</a>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="about section" id="about">
+  <div class="about-grid">
+    <div class="about-copy reveal">
+      <p class="eyebrow">Our story</p>
+      <h2>A table set by generations.</h2>
+      <p>We take pride in the products we source and the dishes we serve — traditional Italian cuisine, inspired by generations of home cooking. Healthy, fresh food, made from the best ingredients and finished with warm hospitality.</p>
+      <p>From hand-finished pasta to seafood pulled from the day's best catch, every plate is made to feel like a Sunday meal in Italy.</p>
+      <a class="link-underline" href="#menu">Explore our menu &rarr;</a>
+    </div>
+    <div class="about-stats reveal">
+      <div class="stat">
+        <span class="stat-num">100%</span>
+        <span class="stat-label">Made from scratch, daily</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">4.5&#9733;</span>
+        <span class="stat-label">Loved on Yelp &amp; Google</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">70</span>
+        <span class="stat-label">Seats for parties &amp; events</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MENU ===== -->
+<section class="menu section" id="menu">
+  <div class="section-head reveal">
+    <p class="eyebrow">Our kitchen</p>
+    <h2>The Menu</h2>
+    <p class="section-sub">Pasta, seafood, and Italian classics — all prepared fresh. Prices and availability may vary; ask your server about today's specials.</p>
+  </div>
+
+  <div class="menu-tabs" id="menuTabs" role="tablist">
+    <button class="menu-tab is-active" data-cat="antipasti" role="tab">Antipasti</button>
+    <button class="menu-tab" data-cat="salads" role="tab">Salads &amp; Soup</button>
+    <button class="menu-tab" data-cat="pasta" role="tab">Pasta</button>
+    <button class="menu-tab" data-cat="classics" role="tab">Classics &amp; Veal</button>
+    <button class="menu-tab" data-cat="specials" role="tab">Chef Specials</button>
+    <button class="menu-tab" data-cat="dolci" role="tab">Dolci</button>
+  </div>
+
+  <div class="menu-panels">
+
+    <!-- ANTIPASTI -->
+    <div class="menu-panel is-active" data-cat="antipasti">
+      <div class="menu-list">
+        <article class="dish"><h3>Cozze e Vongole <span class="price">$18</span></h3><p>Steamed mussels and clams, chardonnay, lemon zest, garlic.</p></article>
+        <article class="dish"><h3>Gamberi al Capperi <span class="price">$17</span></h3><p>Tiger prawns, white wine, garlic and capers.</p></article>
+        <article class="dish"><h3>Calamari Siciliano <span class="price">$17</span></h3><p>Spicy sautéed calamari, vino bianco, Mediterranean olives, garlic, capers.</p></article>
+        <article class="dish"><h3>Andiamo Antipasto <span class="price">$18</span></h3><p>Eggplant parmigiana, mushrooms, artichoke hearts, Tuscan white beans, roasted red peppers.</p></article>
+        <article class="dish"><h3>Meatballs al Forno <span class="price">$21</span></h3><p>Classic Italian meatballs, marinara.</p></article>
+        <article class="dish"><h3>Burrata &amp; Roasted Beets <span class="price">$19</span></h3><p>Fior di latte fresh soft cheese, roasted beets, sweet peas, Grana Padano.</p></article>
+        <article class="dish"><h3>Bruschetta <span class="price">$14</span></h3><p>Grilled Toscan bread, choice of marinated tomatoes or mushrooms.</p></article>
+        <article class="dish"><h3>Olives al Forno <span class="price">$10</span></h3><p>Oven-roasted Mediterranean olives, orange and lemon zest, garlic.</p></article>
+      </div>
+    </div>
+
+    <!-- SALADS -->
+    <div class="menu-panel" data-cat="salads">
+      <div class="menu-list">
+        <article class="dish"><h3>Caprese <span class="price">$15</span></h3><p>Vine-ripe tomatoes, extra virgin olive oil, fresh basil, balsamic di Modena.</p></article>
+        <article class="dish"><h3>Andiamo Chopped Salad <span class="price">$16</span></h3><p>Iceberg, radicchio, chickpeas, aged provolone, genoa salami, oregano vinaigrette.</p></article>
+        <article class="dish"><h3>Insalata di Cesare <span class="price">$10</span></h3><p>Classic Caesar with house-made dressing and croutons.</p></article>
+        <article class="dish"><h3>Washington Salad <span class="price">$15</span></h3><p>Organic greens, apples, candied walnuts, cranberries, gorgonzola, lemon vinaigrette.</p></article>
+        <article class="dish"><h3>Pera e Gorgonzola <span class="price">$10</span></h3><p>Organic greens, Italian gorgonzola, Anjou pears.</p></article>
+        <article class="dish"><h3>Roasted Barbabietola <span class="price">$10</span></h3><p>Roasted red beets, organic greens, chèvre cheese.</p></article>
+        <article class="dish"><h3>Minestrone Zuppa <span class="price">$9</span></h3><p>Traditional Tuscan vegetable soup.</p></article>
+      </div>
+    </div>
+
+    <!-- PASTA -->
+    <div class="menu-panel" data-cat="pasta">
+      <div class="menu-list">
+        <article class="dish"><h3>Spaghetti alla Carbonara <span class="price">$24</span></h3><p>Local pancetta, parmigiano reggiano, free-range eggs, cream.</p></article>
+        <article class="dish"><h3>Rigatoni con Salsiccia <span class="price">$20</span></h3><p>Pomodoro-cream, fennel sausage, mushrooms, onions.</p></article>
+        <article class="dish"><h3>Spaghetti Bolognese <span class="price">$22</span></h3><p>Classic Italian grass-fed beef ragu.</p></article>
+        <article class="dish"><h3>Linguini Vongole <span class="price">$25</span></h3><p>Fresh Manila clams, vino bianco, roasted garlic, chili flakes.</p></article>
+        <article class="dish"><h3>Penne alla Vodka <span class="price">$20</span></h3><p>Pomodoro cream, Italian pancetta, red onions.</p></article>
+        <article class="dish"><h3>Gnocchi della Casa <span class="price">$22</span></h3><p>Homemade gnocchetti in your choice of gorgonzola, pesto, or pomodoro.</p></article>
+        <article class="dish"><h3>Ravioli Aurora <span class="price">$20</span></h3><p>Three-cheese ravioli, pomodoro cream, mushrooms.</p></article>
+        <article class="dish"><h3>Farfalle al Salmone <span class="price">$20</span></h3><p>Smoked Northwest salmon, sweet peas, cream.</p></article>
+        <article class="dish"><h3>Spaghetti Calamari <span class="price">$24</span></h3><p>Calamari, spicy pomodoro, garlic.</p></article>
+        <article class="dish"><h3>Tortellini alla Panna <span class="price">$21</span></h3><p>Beef tortellini, black forest ham, cream.</p></article>
+        <article class="dish"><h3>Fettuccini con Pesto <span class="price">$18</span></h3><p>Fresh basil and reggiano pesto, cream.</p></article>
+        <article class="dish"><h3>Penne alla Arrabiata <span class="price">$18</span></h3><p>Red onions, pepperoncini, spicy pomodoro.</p></article>
+      </div>
+    </div>
+
+    <!-- CLASSICS -->
+    <div class="menu-panel" data-cat="classics">
+      <div class="menu-list">
+        <article class="dish"><h3>Pollo Marsala <span class="price">$26</span></h3><p>Boneless chicken breast, sweet marsala, mushrooms.</p></article>
+        <article class="dish"><h3>Pollo Piccata <span class="price">$26</span></h3><p>Boneless chicken breast, white wine, lemon and capers.</p></article>
+        <article class="dish"><h3>Pollo Gorgonzola <span class="price">$26</span></h3><p>Boneless chicken breast, creamy gorgonzola.</p></article>
+        <article class="dish"><h3>Pollo Napoletana <span class="price">$26</span></h3><p>Chicken breast, pomodoro, capers, oregano, mozzarella.</p></article>
+        <article class="dish"><h3>Vitello Saltimbocca <span class="price">$32</span></h3><p>Veal scaloppini, prosciutto di Parma, sage, white wine.</p></article>
+        <article class="dish"><h3>Vitello Marsala <span class="price">$32</span></h3><p>Tender veal, mushrooms and sweet marsala.</p></article>
+        <article class="dish"><h3>Vitello Piccata <span class="price">$28</span></h3><p>Tender veal, white wine, lemon and capers.</p></article>
+      </div>
+    </div>
+
+    <!-- SPECIALS -->
+    <div class="menu-panel" data-cat="specials">
+      <div class="menu-list">
+        <article class="dish"><h3>Filetto al Cognac <span class="price">$55</span></h3><p>8 oz. filet mignon, cognac cream, black peppercorns. Served with a side of pasta.</p></article>
+        <article class="dish"><h3>Linguini al Frutti di Mare <span class="price">$42</span></h3><p>Mussels, clams, calamari, prawns, spicy pomodoro.</p></article>
+        <article class="dish"><h3>Salmone Piccata <span class="price">$39</span></h3><p>King salmon poached in a white wine lemon reduction with capers.</p></article>
+        <article class="dish"><h3>Ravioloni di Aragosta <span class="price">$38</span></h3><p>Lobster-filled ravioli, saffron cream.</p></article>
+        <article class="dish"><h3>Dinner for Two <span class="price">$150</span></h3><p>Appetizer, salad and main course for two, with a bottle of Chianti or Pinot Grigio.</p></article>
+      </div>
+    </div>
+
+    <!-- DOLCI -->
+    <div class="menu-panel" data-cat="dolci">
+      <div class="menu-list">
+        <article class="dish"><h3>Tiramisu <span class="price">$10</span></h3><p>Lady fingers soaked in espresso, topped with sweet mascarpone.</p></article>
+        <article class="dish"><h3>Pannacotta <span class="price">$10</span></h3><p>Italian vanilla cream custard, berry coulis.</p></article>
+        <article class="dish"><h3>Chocolate Fondant Cake <span class="price">$10</span></h3><p>Chocolate layer cake filled with rich chocolate cream.</p></article>
+        <article class="dish"><h3>Cheesecake <span class="price">$12</span></h3><p>NY-style colossal cheesecake, Northwest berry sauce.</p></article>
+        <article class="dish"><h3>Limoncello Cake <span class="price">$12</span></h3><p>Lemon and mascarpone cake.</p></article>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="menu-note">*Consuming raw or undercooked food may increase your risk of foodborne illness.</p>
+
+  <div class="menu-cta">
+    <a class="btn btn-primary" href="tel:+14256750248">Order for Pickup</a>
+    <a class="btn btn-ghost" href="https://giftup.app/place-order/9d082652-866e-4bca-ebb5-08dadeb68a19?platform=hosted" target="_blank" rel="noopener">Buy a Gift Card</a>
+  </div>
+</section>
+
+<!-- ===== CATERING / EVENTS ===== -->
+<section class="events section" id="events">
+  <div class="events-grid">
+    <div class="event-card reveal">
+      <p class="eyebrow">Catering</p>
+      <h2>Let us cater your next event.</h2>
+      <p>Birthdays, weddings, corporate events — whatever matters to you, we offer catering packages for every occasion, built around your budget.</p>
+      <a class="btn btn-primary" href="https://tmt.spotapps.co/catering?spot_id=108648&callback_url=https://www.andiamobellevue.com/" target="_blank" rel="noopener">Catering Packages</a>
+    </div>
+    <div class="event-card reveal">
+      <p class="eyebrow">Private Parties</p>
+      <h2>Host your celebration with us.</h2>
+      <p>We're caterers and experienced event planners. Our all-in-one packages mean all you have to do is show up and enjoy the night.</p>
+      <a class="btn btn-primary" href="https://tmt.spotapps.co/private-parties?spot_id=108648&callback_url=https://www.andiamobellevue.com/" target="_blank" rel="noopener">Book a Party</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section class="gallery section" id="gallery">
+  <div class="section-head reveal">
+    <p class="eyebrow">From our kitchen</p>
+    <h2>A Taste of Andiamo</h2>
+    <p class="section-sub">Swap these tiles with your own food and interior photos — see the README for how.</p>
+  </div>
+  <div class="gallery-grid">
+    <figure class="gtile" style="--i:1"><span>Homemade Bread</span></figure>
+    <figure class="gtile" style="--i:2"><span>Burrata &amp; Beets</span></figure>
+    <figure class="gtile" style="--i:3"><span>Ravioli Aurora</span></figure>
+    <figure class="gtile" style="--i:4"><span>Tiramisu</span></figure>
+    <figure class="gtile" style="--i:5"><span>The Dining Room</span></figure>
+    <figure class="gtile" style="--i:6"><span>Salmone Piccata</span></figure>
+  </div>
+</section>
+
+<!-- ===== REVIEWS ===== -->
+<section class="reviews section" id="reviews">
+  <div class="section-head reveal">
+    <p class="eyebrow">Guest love</p>
+    <h2>What People Are Saying</h2>
+  </div>
+  <div class="review-track" id="reviewTrack">
+    <blockquote class="review"><p>&ldquo;This place is so yummy. The carbonara was so delish and my husband's salmon pasta was amazing! The staff was friendly and attentive — we will certainly be back!&rdquo;</p><cite>Candi C. &middot; Yelp</cite></blockquote>
+    <blockquote class="review"><p>&ldquo;You are missing out! The food is nothing short of amazing — better than Carmine's in Bellevue at half the price. The service is impeccable and friendly.&rdquo;</p><cite>Cindy M. &middot; Yelp</cite></blockquote>
+    <blockquote class="review"><p>&ldquo;We got the pesto, the gorgonzola gnocchi, and the seafood pasta. The service was great and the food was even better. Wow, wow, wow — so good!&rdquo;</p><cite>Maddie L. &middot; Yelp</cite></blockquote>
+    <blockquote class="review"><p>&ldquo;Absolutely wonderful. The food was amazing and the service excellent. Prices were midline for an upscale restaurant — definitely worth it.&rdquo;</p><cite>Debera H. &middot; Yelp</cite></blockquote>
+    <blockquote class="review"><p>&ldquo;I got the Rigatoni con Salsiccia and it was amazing — a flavor explosion. By far one of the best pasta dishes I've ever had. MUST TRY.&rdquo;</p><cite>Anthony M. &middot; Yelp</cite></blockquote>
+  </div>
+  <div class="review-dots" id="reviewDots" aria-hidden="true"></div>
+</section>
+
+<!-- ===== VISIT / LOCATION ===== -->
+<section class="visit section" id="visit">
+  <div class="visit-grid">
+    <div class="visit-info reveal">
+      <p class="eyebrow">Visit us</p>
+      <h2>Come dine with us.</h2>
+
+      <div class="info-block">
+        <h3>Location</h3>
+        <p>938 110th Avenue Northeast<br>Bellevue, WA 98004</p>
+        <a class="link-underline" href="https://maps.google.com/?q=938+110th+Avenue+Northeast+Bellevue+WA+98004" target="_blank" rel="noopener">Get directions &rarr;</a>
+      </div>
+
+      <div class="info-block">
+        <h3>Hours</h3>
+        <p><strong>Mon&ndash;Fri</strong> &nbsp; 11:30 AM &ndash; 9:30 PM<br>
+           <strong>Sat&ndash;Sun</strong> &nbsp; 4:30 PM &ndash; 9:30 PM</p>
+      </div>
+
+      <div class="info-block">
+        <h3>Contact</h3>
+        <p><a href="tel:+14256750248">(425) 675-0248</a><br>
+           <a href="mailto:cristian@andiamobellevue.com">cristian@andiamobellevue.com</a></p>
+      </div>
+
+      <div class="socials">
+        <a href="https://www.facebook.com/101704465653467" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+        <a href="https://www.instagram.com/andiamo_bellevue" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+        <a href="https://www.yelp.com/biz/andiamo-bellevue" target="_blank" rel="noopener" aria-label="Yelp">Yelp</a>
+      </div>
+    </div>
+
+    <div class="visit-map reveal">
+      <iframe
+        title="Map to Andiamo Ristorante"
+        src="https://www.google.com/maps?q=938+110th+Avenue+Northeast+Bellevue+WA+98004&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ===== RESERVE BANNER ===== -->
+<section class="reserve-banner">
+  <div class="reserve-inner reveal">
+    <h2>Ready when you are.</h2>
+    <p>Reserve your table online and let us take care of the rest.</p>
+    <a class="btn btn-light" href="https://www.yelp.com/reservations/andiamo-bellevue" target="_blank" rel="noopener">Reserve a Table</a>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark">Andiamo</span>
+      <p>Authentic Italian dining in Bellevue, Washington.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="#menu">Menu</a>
+      <a href="#events">Catering</a>
+      <a href="#events">Parties</a>
+      <a href="https://giftup.app/place-order/9d082652-866e-4bca-ebb5-08dadeb68a19?platform=hosted" target="_blank" rel="noopener">Gift Cards</a>
+      <a href="https://www.yelp.com/reservations/andiamo-bellevue" target="_blank" rel="noopener">Reserve</a>
+    </nav>
+    <div class="footer-contact">
+      <p>938 110th Ave NE, Bellevue, WA 98004</p>
+      <p><a href="tel:+14256750248">(425) 675-0248</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> Andiamo Ristorante. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
